@@ -1,0 +1,18 @@
+{
+  "name": "retry",
+  "module": "background.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "web-ext run",
+    "build": "tsc --noEmit false && web-ext build --overwrite-dest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/firefox-webext-browser": "^143.0.0",
+    "web-ext": "^9.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
