@@ -18,3 +18,9 @@ This extension aims to automate that page refresh.
 
 - `webRequest` - required in order to listen for the HTTP response status code
 - `<all_urls>` - required in order to listen to the status code of all pages (not just Reddit, etc.)
+
+## Screenshots
+
+![](screenshots/countdown3.jpg)
+![](screenshots/countdown2.jpg)
+![](screenshots/countdown1.jpg)
