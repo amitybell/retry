@@ -10,7 +10,6 @@
   },
   "permissions": [
     "webRequest",
-    "storage",
     "<all_urls>"
   ],
   "browser_specific_settings": {
