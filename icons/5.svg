@@ -1,32 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="256mm"
-   height="256mm"
-   viewBox="0 0 256 256"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:129.979px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:#000000;stroke-width:5.41579;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:normal"
-     x="95.031593"
-     y="168.29878"
-     id="text15"
-     transform="scale(0.99973387,1.0002662)"><tspan
-       id="tspan15"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:129.979px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#000000;stroke:#000000;stroke-width:5.41579"
-       x="95.031593"
-       y="168.29878">5</tspan></text>
-  <ellipse
-     style="fill:none;stroke:#000000;stroke-width:23.6527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:94.6109, 47.3055, 23.6527, 47.3055;stroke-dashoffset:0;paint-order:normal"
-     id="path15"
-     cx="128.00023"
-     cy="127.76398"
-     rx="116.1734"
-     ry="116.23527" />
+<svg width="256mm" height="256mm" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <path transform="scale(.99973 1.0003)" d="m154.94 141.64q0 6.664-2.3482 11.932-2.2848 5.2042-6.537 8.8218-4.1888 3.5541-10.155 5.4581-5.9024 1.904-13.138 1.904-3.808 0-7.2352-0.50773-3.4272-0.44427-6.1562-1.1424-2.729-0.76159-4.5061-1.4597-1.7136-0.7616-2.2848-1.2059-0.50773-0.50773-0.76159-1.0789-0.25387-0.5712-0.44427-1.3328-0.12693-0.82506-0.19039-2.0309-0.0635-1.2059-0.0635-2.856 0-1.777 0.12693-2.9829 0.12693-1.2693 0.3808-2.0309 0.31733-0.76159 0.69813-1.0789t0.88853-0.31733q0.63466 0 1.904 0.76159 1.3328 0.69813 3.4272 1.5867 2.1578 0.88853 5.2042 1.6501 3.0464 0.69813 7.2986 0.69813 3.681 0 6.664-0.76159 3.0464-0.7616 5.1408-2.4117 2.0944-1.7136 3.2368-4.2522 1.1424-2.5386 1.1424-6.0928 0-3.0464-0.95199-5.3946-0.952-2.4117-2.9829-4.0618-2.0309-1.6501-5.2677-2.4752-3.2368-0.82506-7.8698-0.82506-3.681 0-6.7274 0.3808-2.9829 0.3808-5.6485 0.3808-1.8405 0-2.6656-0.88853-0.7616-0.952-0.7616-3.4272v-35.668q0-2.5387 0.952-3.6176 1.0155-1.1424 3.1733-1.1424h38.905q0.5712 0 1.0789 0.3808 0.50773 0.3808 0.82506 1.2059 0.3808 0.82506 0.50773 2.2213 0.1904 1.3328 0.1904 3.2368 0 3.808-0.69813 5.5216-0.63466 1.7136-1.904 1.7136h-29.194v17.58q2.2213-0.25386 4.3792-0.31733 2.2213-0.0635 4.633-0.0635 6.664 0 11.805 1.5866 5.2042 1.5232 8.6949 4.5696 3.5541 2.9829 5.3946 7.489 1.8405 4.4426 1.8405 10.345z" stroke="#000" stroke-linecap="square" stroke-linejoin="round" stroke-width="5.4158" aria-label="5"/>
+  <ellipse cx="128" cy="127.76" rx="116.17" ry="116.24" fill="none" stroke="#000" stroke-dasharray="94.6109, 47.3055, 23.6527, 47.3055" stroke-linecap="round" stroke-linejoin="round" stroke-width="23.653" style="paint-order:normal"/>
 </svg>

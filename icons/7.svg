@@ -1,32 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="256mm"
-   height="256mm"
-   viewBox="0 0 256 256"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:129.979px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:#000000;stroke-width:5.41579;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:normal"
-     x="95.158524"
-     y="168.83824"
-     id="text15"
-     transform="scale(0.99973387,1.0002662)"><tspan
-       id="tspan15"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:129.979px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#000000;stroke:#000000;stroke-width:5.41579"
-       x="95.158524"
-       y="168.83824">7</tspan></text>
-  <ellipse
-     style="fill:none;stroke:#000000;stroke-width:23.6527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:94.6109, 47.3055, 23.6527, 47.3055;stroke-dashoffset:0;paint-order:normal"
-     id="path15"
-     cx="128.00023"
-     cy="127.76398"
-     rx="116.1734"
-     ry="116.23527" />
+<svg width="256mm" height="256mm" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <path transform="scale(.99973 1.0003)" d="m155.77 93.758q0 1.8405-0.12693 3.2368-0.12694 1.3328-0.3808 2.5387-0.1904 1.1424-0.5712 2.2213-0.3808 1.0155-0.88853 2.2213l-27.037 62.641q-0.3808 0.82506-1.0155 1.3328-0.5712 0.50773-1.6501 0.82507-1.0789 0.25386-2.7925 0.31733-1.6501 0.12693-4.1253 0.12693-3.3637 0-5.3312-0.25387-1.9674-0.19039-2.9194-0.63466-0.88853-0.50773-0.95199-1.2059-0.0635-0.76159 0.44426-1.8405l29.068-64.101h-34.526q-1.3328 0-2.0309-1.7136-0.63467-1.7771-0.63467-5.585 0-1.904 0.1904-3.2368 0.1904-1.3963 0.50773-2.2848 0.3808-0.88853 0.82507-1.2693 0.50773-0.3808 1.1424-0.3808h48.806q1.1424 0 1.904 0.25386 0.7616 0.1904 1.2059 0.952 0.44427 0.7616 0.63466 2.1579 0.25387 1.3963 0.25387 3.681z" stroke="#000" stroke-linecap="square" stroke-linejoin="round" stroke-width="5.4158" aria-label="7"/>
+  <ellipse cx="128" cy="127.76" rx="116.17" ry="116.24" fill="none" stroke="#000" stroke-dasharray="94.6109, 47.3055, 23.6527, 47.3055" stroke-linecap="round" stroke-linejoin="round" stroke-width="23.653" style="paint-order:normal"/>
 </svg>

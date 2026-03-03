@@ -1,17 +1,22 @@
-const MIN_DELAY = 3_000;
-const MAX_DELAY = 10_000;
+const STATUS_CODE_DELAYS = {
+    429: 3_000,
+    403: 10_000,
+};
+const DEFAULT_DELAY = 10_000;
+const MAX_DELAY = 15_000;
 const BACKOFF = 1000;
 const TICK_TIMEOUT = 1000;
 const COUNTDOWN_DECREMENT = 1000;
 const MIN_ICON_NUM = 1;
-const MAX_ICON_NUM = 10;
+const MAX_ICON_NUM = 15;
 class State {
     tabId;
-    delay = MIN_DELAY;
+    delay;
     countdown = 0;
     timeout;
-    constructor(tabId) {
+    constructor({ tabId, statusCode }) {
         this.tabId = tabId;
+        this.delay = STATUS_CODE_DELAYS[statusCode] ?? DEFAULT_DELAY;
     }
     stop() {
         if (this.timeout != null) {
@@ -37,9 +42,18 @@ class State {
 }
 const states = {};
 const retryStatusCodes = new Set([403, 429]);
+browser.webRequest.onBeforeRequest.addListener(({ tabId }) => {
+    // stop the countdown if the page is reloading
+    // e.g. by an automated challenge solver or use input
+    states[tabId]?.stop();
+    render({ tabId });
+}, {
+    urls: ["<all_urls>"],
+    types: ["main_frame"],
+});
 browser.webRequest.onResponseStarted.addListener(({ statusCode, method, tabId }) => {
     if (retryStatusCodes.has(statusCode) && method === "GET") {
-        resetState(tabId);
+        resetState({ tabId, statusCode });
     }
     else {
         deleteState(tabId);
@@ -51,10 +65,12 @@ browser.webRequest.onResponseStarted.addListener(({ statusCode, method, tabId })
 const deleteState = (tabId) => {
     states[tabId]?.stop();
     delete states[tabId];
+    render({ tabId });
 };
-const resetState = (tabId) => {
-    states[tabId] ??= new State(tabId);
+const resetState = ({ tabId, statusCode, }) => {
+    states[tabId] ??= new State({ tabId, statusCode });
     states[tabId].reset();
+    render({ tabId });
 };
 const refreshTab = async (tabId) => {
     states[tabId]?.stop();

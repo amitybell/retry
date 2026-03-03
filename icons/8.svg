@@ -1,32 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="256mm"
-   height="256mm"
-   viewBox="0 0 256 256"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:129.979px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:#000000;stroke-width:5.41579;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:normal"
-     x="95.126793"
-     y="169.02864"
-     id="text15"
-     transform="scale(0.99973387,1.0002662)"><tspan
-       id="tspan15"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:129.979px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#000000;stroke:#000000;stroke-width:5.41579"
-       x="95.126793"
-       y="169.02864">8</tspan></text>
-  <ellipse
-     style="fill:none;stroke:#000000;stroke-width:23.6527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:94.6109, 47.3055, 23.6527, 47.3055;stroke-dashoffset:0;paint-order:normal"
-     id="path15"
-     cx="128.00023"
-     cy="127.76398"
-     rx="116.1734"
-     ry="116.23527" />
+<svg width="256mm" height="256mm" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <path d="m157.03 147.04q0 5.5865-1.9669 9.9669-1.9035 4.3804-5.7104 7.4275-3.7435 2.9837-9.3271 4.5708-5.5836 1.5236-12.88 1.5236-6.9794 0-12.246-1.3966-5.2663-1.3966-8.8195-4.0629-3.5532-2.7298-5.3298-6.6657-1.7766-3.9994-1.7766-9.1416 0-3.4916 1.0152-6.5388 1.0786-3.1107 3.109-5.7135 2.0938-2.6663 5.1394-4.9517 3.109-2.3489 7.1063-4.4438-3.2359-1.7775-5.8374-3.809-2.6014-2.0949-4.4415-4.5073-1.84-2.4758-2.7918-5.3961-0.95175-2.9202-0.95175-6.3483 0-4.9517 1.7131-8.9511 1.7766-4.0629 5.2029-6.9832 3.4897-2.9837 8.6926-4.5708 5.2029-1.5871 12.055-1.5871 6.7891 0 11.611 1.4601 4.8856 1.4601 7.9946 4.1264 3.109 2.6663 4.5684 6.4118 1.5228 3.682 1.5228 8.1893 0 2.9837-1.0152 5.8405-0.95174 2.7932-2.7283 5.3326-1.7766 2.5393-4.378 4.8247-2.6014 2.2219-5.9008 4.0629 3.8704 2.0315 6.916 4.3169 3.0456 2.2854 5.1394 4.9517 2.0938 2.6028 3.1725 5.5865 1.1421 2.9837 1.1421 6.4753zm-18.4-39.867q0-2.2219-0.63449-3.9994-0.6345-1.7775-2.0304-2.9837-1.3324-1.2697-3.3628-1.9045-1.9669-0.63483-4.6952-0.63483-5.3298 0-7.9312 2.4758-2.6014 2.4124-2.6014 6.7292 0 2.0315 0.63449 3.7455 0.69794 1.714 2.0938 3.2376 1.3959 1.5236 3.6166 2.9837 2.2207 1.4601 5.2663 3.1107 4.6318-2.7298 7.1063-5.8404 2.538-3.1107 2.538-6.9197zm1.9035 41.01q0-2.3489-0.82484-4.2534-0.7614-1.968-2.4745-3.682-1.6497-1.714-4.1877-3.3011t-5.9008-3.2376q-2.9187 1.5871-5.1394 3.1742-2.2207 1.5871-3.6801 3.3646-1.4593 1.714-2.2207 3.682-0.69794 1.9045-0.69794 4.1264 0 4.9517 3.1725 7.5545 3.2359 2.6028 9.5809 2.6028 6.218 0 9.2636-2.6663 3.109-2.6663 3.109-7.3641z" stroke="#000" stroke-linecap="square" stroke-linejoin="round" stroke-width="5.4158" aria-label="8"/>
+  <ellipse cx="128" cy="127.76" rx="116.17" ry="116.24" fill="none" stroke="#000" stroke-dasharray="94.6109, 47.3055, 23.6527, 47.3055" stroke-linecap="round" stroke-linejoin="round" stroke-width="23.653" style="paint-order:normal"/>
 </svg>
