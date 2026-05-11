@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "ReTry",
   "homepage_url": "https://github.com/amitybell/retry",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Automatically reload the page on 403 (Forbidden) and 429 (Rate limited) errors",
   "icons": {
     "32": "icons/re.svg",
