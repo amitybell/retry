@@ -1,14 +1,14 @@
 const STATUS_CODE_DELAYS: { [statusCode: number]: number } = {
   429: 3_000,
-  403: 10_000,
+  403: 20_000,
 };
 const DEFAULT_DELAY = 10_000;
-const MAX_DELAY = 15_000;
 const BACKOFF = 1000;
 const TICK_TIMEOUT = 1000;
 const COUNTDOWN_DECREMENT = 1000;
 const MIN_ICON_NUM = 1;
-const MAX_ICON_NUM = 15;
+const MAX_ICON_NUM = 30;
+const MAX_DELAY = MAX_ICON_NUM * 1000;
 
 class State {
   tabId: number;
