@@ -1,5 +1,5 @@
 const STATUS_CODE_DELAYS: { [statusCode: number]: number } = {
-  429: 3_000,
+  429: 10_000,
   403: 20_000,
 };
 const DEFAULT_DELAY = 10_000;
